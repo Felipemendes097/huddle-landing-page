@@ -19,6 +19,8 @@ header img.logo-huddle {
 }
 
 main {
+    max-width: 1440px;
+    margin: 0 auto;
     grid-area: main;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
