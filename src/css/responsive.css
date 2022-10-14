@@ -1,0 +1,67 @@
+@media(max-width:800px) {
+
+    body {
+        background: url('../images/bg-mobile.svg');
+        background-color: var(--color-violet);
+
+    }
+
+    header {
+        margin-left: -1em;
+        margin-top: 1.2em;
+        max-height: 50%;
+    }
+
+    header img.logo-huddle {
+        max-height: 50%;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-right: 2em;
+        margin-top: 1.4em;
+    }
+
+    main div.img img {
+        width: 100%;
+        min-height: 100%;
+        margin-top: -3em;
+    }
+
+    main h2.title {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    main p.txt {
+        font-size: 0.7em;
+        line-height: 1.2em;
+        text-align: left;
+    }
+
+    p.register a {
+        margin-bottom: 5em;
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1em;
+    }
+
+    ul li a {
+
+        border-radius: 50%;
+        font-size: 10px;
+        padding: 5px;
+        margin-right: 0.9em;
+        transition: 0.3s ease-in-out;
+    }
+
+}

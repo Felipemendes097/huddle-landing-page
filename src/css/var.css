@@ -1,0 +1,7 @@
+:root{
+    --font-popins:font-family: 'Poppins', sans-serif;
+    --font-open-sans:font-family: 'Open Sans', sans-serif;
+
+    --color-violet:hsl(257, 40%, 49%);
+    -color-soft-magenta:hsl(300, 69%, 71%);
+}
